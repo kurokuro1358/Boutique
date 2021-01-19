@@ -17,5 +17,23 @@
         MAMP 6.3
 
 - ## 環境構築の手順  
-    1. [MAMP](https://www.mamp.info/de/downloads/)をダウンロードする　　
-    ![MAMPをダウンロードする](https://github.com/kurokuro1358/knowledge/tree/master/image/mamp.png)
+    1. [MAMP](https://www.mamp.info/de/downloads/)をダウンロードする。  　　
+    ![MAMPのダウンロード画面](https://dl.dropboxusercontent.com/s/w8x7xsr628gzjl4/mamp.png)
+
+    2. MAMPを起動する。
+    ![MAMPを起動した画面](https://dl.dropboxusercontent.com/s/91ka1f0bsgxczvt/startMamp.png)
+
+    3. MAMPの起動画面から、Preferences -> Server -> Choose... からDocument rootに作業ディレクトリを選択し、OKを押す。
+    ![Document rootをカレントディレクトリに設定する画面](https://dl.dropboxusercontent.com/s/xkvse72e6sd79x1/setMamp.png)
+
+    4. ホーム画面から右上のStartを押し、サーバーを起動する。デェフォルトでは、ポート番号は8888に設定してある。詳細は、Preferences -> Portsから確認できる。
+    ![ポート番号を確認できる画面](https://dl.dropboxusercontent.com/s/vgnjhfz2li1ktgx/Server.png)
+    
+    5. Google Chromeを開き、[http://localhost:8888/phpmyadmin/](http://localhost:8888/phpmyadmin/)にアクセスする。
+    ![phpMyAdmin](https://dl.dropboxusercontent.com/s/yjw28eixqkdvdz6/phpmyadmin.png)
+
+    6. ユーザーアカウント -> ユーザーアカウントを追加する から新たにユーザーアカウントを作成し、グローバル特権に全てチェックする。  
+    ユーザー名：kurokuro   
+    ホスト名：localhost  
+    パスワード：secret
+
