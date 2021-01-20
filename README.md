@@ -38,8 +38,8 @@
     パスワード：secret
 
 - ## デモ
-    1. サーバーを起動した状態で、[http://localhost:8888/](http://localhost:8888/)にアクセスする。    
-    ![ホーム画面](https://dl.dropboxusercontent.com/s/cqh5noltuxce3jf/index.png)
+    1. サーバーを起動した状態で、[http://localhost:8888/](http://localhost:8888/)にアクセスする。  
+    ![ホーム画面](https://dl.dropboxusercontent.com/s/cqh5noltuxce3jf/index.png)  
 
     2. ページ右上のページ管理より、IDとパスワードを入力して、ログインする。  
     ID:gest0000  
